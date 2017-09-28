@@ -14,3 +14,7 @@ Current features:
 
 Upcoming features:
     * A language server for validation
+
+## Example of syntax highlighting
+
+![Syntax highlighting](https://raw.githubusercontent.com/BattleBas/kivy-vscode/master/screenshots/syntax_highlighting_example.PNG "Example of syntax highlighting")

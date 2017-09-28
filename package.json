@@ -10,6 +10,10 @@
     "categories": [
         "Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BattleBas/kivy-vscode"
+    },
     "contributes": {
         "languages": [{
             "id": "kivy",
