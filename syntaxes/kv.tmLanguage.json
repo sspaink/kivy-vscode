@@ -1,0 +1,44 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "kivy",
+    "patterns": [
+        {
+            "comment": "Global value: #:set name value is equivalent to name = value",
+            "name": "comment.line.number-sign.kv",
+            "match": "#:.*"
+        },
+        {
+            "comment": "Root rule (There can only be one!): No indention followed by :",
+            "name": "entity.name.tag.kv",
+            "match": "^[^<]\\S+:$"
+        },
+        {
+            "comment": "Class rule: Declared by the name of a widget class between < > and followed by :",
+            "name": "entity.name.type.kv",
+            "begin": "<",
+            "end": ">:"
+        },
+        {
+            "comment": "Children widgets: Indention followed by :",
+            "name": "entity.name.function.kv",
+            "match": "^.*:$"
+        },
+        {
+            "comment": "Keys: Indention followed by : and a value",
+            "name": "support.variable.kv",
+            "match": "^.*:"
+        },
+        {
+            "comment": "Double quoted strings",
+            "name": "string.quoted.double.kv",
+            "begin": "\"",
+            "end": "\""
+        },
+        {
+            "comment": "Numeric value",
+            "name": "constant.numeric.kv",
+            "match": "\\d"
+        }
+    ],
+    "scopeName": "source.kv"
+}

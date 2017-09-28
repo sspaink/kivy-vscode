@@ -1,0 +1,44 @@
+{
+    "name": "kivy-vscode",
+    "displayName": "Kivy",
+    "description": "Kivy language support for Visual Studio Code.",
+    "version": "0.0.1",
+    "publisher": "BattleBas",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "kivy",
+            "aliases": ["kivy", "kv"],
+            "extensions": [".kv"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "kivy",
+            "scopeName": "source.kv",
+            "path": "./syntaxes/kv.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+                "language": "kivy",
+                "path": "./snippets/ux_widgets.json"
+            },
+            {
+                "language": "kivy",
+                "path": "./snippets/layouts.json"
+            },
+            {
+                "language": "kivy",
+                "path": "./snippets/complex_ux_widgets.json"
+            },
+            {
+                "language": "kivy",
+                "path": "./snippets/behaviour_widgets.json"
+            }
+        ]
+    }
+}

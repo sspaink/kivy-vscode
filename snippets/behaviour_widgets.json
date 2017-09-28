@@ -1,0 +1,18 @@
+{
+    "Scatter": {
+        "prefix": "Scatter:",
+        "body": [
+            "Scatter:",
+            "    ${1:}"
+        ],
+        "description": "Translate, rotate or scale a widget with two or more fingers."
+    },
+    "StencilView": {
+        "prefix": "StencilView:",
+        "body": [
+            "StencilView:",
+            "    ${1:}"
+        ],
+        "description": "Limits the drawing of child widgets to the StencilView's bounding box."
+    }
+}

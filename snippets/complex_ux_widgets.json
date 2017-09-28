@@ -1,0 +1,18 @@
+{
+    "Bubble": {
+        "prefix": "Bubble:",
+        "body": [
+            "Bubble:",
+            "    ${1:orientation:}"
+        ],
+        "description": "A small popup with menu options stacked vertically or horizantally."
+    },
+    "DropDown": {
+        "prefix": "DropDown:",
+        "body": [
+            "DropDown:",
+            "    ${1}"
+        ],
+        "description": "Displays a list of widgets."
+    }
+}

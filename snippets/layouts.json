@@ -1,0 +1,18 @@
+{
+    "Anchor Layout": {
+        "prefix": "AnchorLayout:",
+        "body": [
+            "AnchorLayout:",
+            "    ${1:anchor_x:}"
+        ],
+        "description": "Aligns its children to a border (top, bottom, left, right) or center."
+    },
+    "BoxLayout": {
+        "prefix": "BoxLayout:",
+        "body": [
+            "BoxLayout:",
+            "    ${1:orientation:}"
+        ],
+        "description": "Arranges children in a vertical or horizontal box."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Label": {
+        "prefix": "Label:",
+        "body": [
+            "Label:",
+            "    ${1:id:}"
+        ],
+        "description": "Renders text (supports ASCII and unicode strings)"
+    },
+    "Button": {
+        "prefix": "Button:",
+        "body": [
+            "Button:",
+            "    ${1:text:}"
+        ],
+        "description": "A clickable Label widget."
+    }
+}
