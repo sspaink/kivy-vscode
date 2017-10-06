@@ -44,5 +44,18 @@
                 "path": "./snippets/behaviour_widgets.json"
             }
         ]
-    }
+    },
+	"scripts": {
+		"postinstall": "cd src/server && npm install && cd ../../src/client && npm install && cd ../..",
+		"compile": "tsc -p src/client/tsconfig.json && cd src/server && npm run installServer && cd ../.. && tsc -p src/server/tsconfig.json",
+		"compile:client": "tsc -p src/client/tsconfig.json",
+		"watch:client": "tsc -w -p src/client/tsconfig.json",
+		"compile:server": "cd src/server && npm run installServer && cd ../.. && tsc -p src/server/tsconfig.json",
+		"watch:server": "cd src/server && npm run installServer && cd ../.. && tsc -w -p src/server/tsconfig.json"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^6.0.88",
+		"typescript": "^2.5.2"
+	}
 }

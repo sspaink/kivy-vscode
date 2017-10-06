@@ -3,11 +3,31 @@
     "version": "0.1.0",
     "configurations": [
         {
-            "name": "Launch Extension",
+            "name": "Launch Client",
             "type": "extensionHost",
             "request": "launch",
             "runtimeExecutable": "${execPath}",
-            "args": ["--extensionDevelopmentPath=${workspaceRoot}" ]
+            "args": [
+                "--extensionDevelopmentPath=${workspaceRoot}/src/client"
+            ],
+            "stopOnEntry": false,
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/src/client/out/**/*.js"
+            ],
+            "preLaunchTask": "watch:client"
+        },
+        {
+            "name": "Attach to Server",
+            "type": "node",
+            "request": "attach",
+            "port": 6009,
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/src/client/server/**/*.js"
+            ],
+            "protocol": "legacy",
+            "preLaunchTask": "watch:server"
         }
     ]
 }
