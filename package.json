@@ -4,6 +4,7 @@
     "description": "Kivy language support for Visual Studio Code.",
     "version": "0.1.0",
     "publisher": "BattleBas",
+    "license": "MIT",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.16.0"

@@ -1,9 +1,10 @@
 {
-	"name": "lsp-sample",
-	"description": "VSCode part of a language server",
+	"name": "kivy-vscode",
+	"displayName": "Kivy",
+	"description": "Kivy language support for Visual Studio Code.",
 	"author": "Microsoft Corporation",
 	"license": "MIT",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "vscode",
     "repository": {
         "type": "git",
