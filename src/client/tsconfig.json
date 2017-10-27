@@ -3,11 +3,11 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noImplicitAny": true,
-		"noImplicitReturns": true,		
+		"noImplicitReturns": true,
 		"target": "es6",
 		"module": "commonjs",
 		"moduleResolution": "node",
-		"rootDir": ".",
+		"rootDir": "../..",
 		"outDir": "out",
 		"lib": [ "es2016" ],
 		"sourceMap": true
