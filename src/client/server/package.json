@@ -1,9 +1,10 @@
 {
-	"name": "lsp-sample",
-	"description": "Example implementation of a language server in node.",
-	"version": "0.0.1",
-	"author": "Microsoft Corporation",
-	"license": "MIT",
+    "name": "kivy-vscode",
+    "displayName": "Kivy",
+    "description": "Kivy language support for Visual Studio Code.",
+    "version": "0.1.0",
+    "publisher": "BattleBas",
+    "license": "MIT",
 	"engines": {
 		"node": "*"
 	},
