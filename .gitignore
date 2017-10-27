@@ -1,4 +1,4 @@
 out
 node_modules
-src/client/server
+src/client/server/
 *.log
