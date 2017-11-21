@@ -1,0 +1,62 @@
+{
+	"name": "kivy-vscode",
+	"displayName": "Kivy",
+	"description": "Kivy language support for Visual Studio Code.",
+	"author": "Microsoft Corporation",
+	"license": "MIT",
+	"version": "0.1.0",
+	"publisher": "vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BattleBas/kivy-vscode"
+    },
+	"engines": {
+		"vscode": "^1.16.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:kivy"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Example configuration",
+			"properties": {
+				"kivy.maxNumberOfProblems": {
+					"scope": "resource",
+					"type": "number",
+					"default": 100,
+					"description": "Controls the maximum number of problems produced by the server."
+				},
+				"kivy.trace.server": {
+					"scope": "window",
+					"type": "string",
+					"enum": [
+						"off",
+						"messages",
+						"verbose"
+					],
+					"default": "off",
+					"description": "Traces the communication between VSCode and the language server."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -p ./",
+		"watch": "tsc -w -p ./",
+		"update-vscode": "node ./node_modules/vscode/bin/install",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "mocha -r ts-node/register test/**/*.test.ts"
+	},
+	"dependencies": {
+		"chai": "^4.0.4",
+		"ts-node": "^3.3.0",
+		"vscode": "^1.1.5",
+		"vscode-languageclient": "^3.4.2"
+	}
+}
