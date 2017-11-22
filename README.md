@@ -1,5 +1,5 @@
 
-![Travis Status](https://travis-ci.org/BattleBas/kivy-vscode.svg?branch=master)
+[![Travis Build Status](https://travis-ci.org/BattleBas/kivy-vscode.svg?branch=master)](https://travis-ci.org/BattleBas/kivy-vscode)
 
 # kivy Language in VS Code
 
