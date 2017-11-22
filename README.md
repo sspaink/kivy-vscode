@@ -1,3 +1,5 @@
+https://travis-ci.org/BattleBas/kivy-vscode.svg?branch=master
+
 # kivy Language in VS Code
 
 This project introduces Kivy (KV) language support to VS Code.
