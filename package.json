@@ -66,7 +66,8 @@
         "test": "cd src/client && npm test"
 	},
 	"devDependencies": {
-		"@types/mocha": "^2.2.42",
+        "@types/mocha": "^2.2.42",
+        "@types/chai": "^4.0.5",
 		"@types/node": "^6.0.88",
 		"typescript": "^2.5.2"
 	}
