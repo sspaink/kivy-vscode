@@ -1,0 +1,6 @@
+*.log
+**/*.ts
+**/tsconfig.json
+.vscode/**
+.gitignore
+.travis.yml

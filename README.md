@@ -8,6 +8,8 @@ This project introduces Kivy (KV) language support to VS Code.
 Kivy is a open source library to make cool user interfaces using Python.
 If you would like to learn more please visit: https://kivy.org/
 
+Supports Visual Code version 1.16.0 and up.
+
 ***
 ## Features
 
