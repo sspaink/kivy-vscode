@@ -35,6 +35,12 @@
             "end": "\""
         },
         {
+            "comment": "Single quoted strings",
+            "name": "string.quoted.single.kv",
+            "begin": "'",
+            "end": "'"
+        },
+        {
             "comment": "Numeric value",
             "name": "constant.numeric.kv",
             "match": "\\d"
