@@ -7,7 +7,7 @@
     "license": "MIT",
     "icon": "icon.png",
     "engines": {
-        "vscode": "^1.16.0"
+        "vscode": "^1.25.0"
     },
     "categories": [
         "Languages"
@@ -21,6 +21,17 @@
     ],
     "main": "./src/client/out/src/client/src/extension",
     "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "TypeScript configuration",
+            "properties": {
+                "kivy.requireKivyHeader": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Toggle if Kivy header (#:kivy) is required, if false then no issue will be reported if missing."
+                }
+            }
+        },
         "languages": [
             {
                 "id": "kivy",
@@ -61,7 +72,7 @@
         ]
     },
     "scripts": {
-        "postinstall": "cd src/server && npm install && cd ../client && npm install && cd ../..",
+        "postinstall": "cd src/server && npm install && cd ../client && node ./node_modules/vscode/bin/install && npm install && cd ../..",
         "compile": "tsc -p src/client/tsconfig.json && cd src/server && npm run installServer && cd ../.. && tsc -p src/server/tsconfig.json",
         "vscode:prepublish": "tsc -p src/client/tsconfig.json && cd src/server && npm run installServer && cd ../.. && tsc -p src/server/tsconfig.json",
         "compile:client": "tsc -p src/client/tsconfig.json",
@@ -71,9 +82,9 @@
         "test": "cd src/client && npm test"
     },
     "devDependencies": {
-        "@types/mocha": "^2.2.42",
-        "@types/chai": "^4.0.5",
-        "@types/node": "^6.0.88",
-        "typescript": "^2.5.2"
+        "@types/chai": "^4.1.6",
+        "@types/mocha": "^5.2.5",
+        "@types/node": "^10.11.4",
+        "typescript": "^3.1.1"
     }
 }

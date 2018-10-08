@@ -6,12 +6,12 @@
 	"license": "MIT",
 	"version": "0.1.0",
 	"publisher": "vscode",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BattleBas/kivy-vscode"
-    },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BattleBas/kivy-vscode"
+	},
 	"engines": {
-		"vscode": "^1.16.0"
+		"vscode": "^1.25.0"
 	},
 	"categories": [
 		"Other"
@@ -48,9 +48,9 @@
 		"test": "mocha -r ts-node/register test/**/*.test.ts"
 	},
 	"dependencies": {
-		"chai": "^4.0.4",
-		"ts-node": "^3.3.0",
-		"vscode": "^1.1.5",
-		"vscode-languageclient": "^3.4.2"
+		"chai": "^4.2.0",
+		"ts-node": "^7.0.1",
+		"vscode": "^1.1.21",
+		"vscode-languageclient": "^5.1.0"
 	}
 }
