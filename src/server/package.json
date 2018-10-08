@@ -1,19 +1,20 @@
 {
-    "name": "kivy-vscode",
-    "displayName": "Kivy",
-    "description": "Kivy language support for Visual Studio Code.",
-    "version": "0.1.0",
-    "publisher": "BattleBas",
-    "license": "MIT",
+	"name": "kivy-vscode",
+	"displayName": "Kivy",
+	"description": "Kivy language support for Visual Studio Code.",
+	"version": "0.1.0",
+	"publisher": "BattleBas",
+	"license": "MIT",
 	"engines": {
+		"vscode": "^1.25.0",
 		"node": "*"
 	},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BattleBas/kivy-vscode"
-    },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BattleBas/kivy-vscode"
+	},
 	"dependencies": {
-		"vscode-languageserver": "^3.4.2"
+		"vscode-languageserver": "^5.1.0"
 	},
 	"scripts": {
 		"installServer": "installServerIntoExtension ../../src/client ./package.json ./tsconfig.json",
