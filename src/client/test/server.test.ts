@@ -11,7 +11,7 @@ describe('Check for Kivy header', () => {
 		let diagnostics: Diagnostic[] = [];
 		let firstLine: string = "";
 
-		checkForKivyHeader(firstLine, diagnostics);
+		checkForKivyHeader(firstLine, diagnostics, true);
 		expect(diagnostics[0].message).to.equal('Kivy files require #:kivy !');
 	});
 
