@@ -72,7 +72,7 @@
         ]
     },
     "scripts": {
-        "postinstall": "cd src/server && npm install && cd ../client && node ./node_modules/vscode/bin/install && npm install && cd ../..",
+        "postinstall": "cd src/server && npm install && cd ../client && npm install && node ./node_modules/vscode/bin/install && cd ../..",
         "compile": "tsc -p src/client/tsconfig.json && cd src/server && npm run installServer && cd ../.. && tsc -p src/server/tsconfig.json",
         "vscode:prepublish": "tsc -p src/client/tsconfig.json && cd src/server && npm run installServer && cd ../.. && tsc -p src/server/tsconfig.json",
         "compile:client": "tsc -p src/client/tsconfig.json",
