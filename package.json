@@ -50,6 +50,16 @@
                 "language": "kivy",
                 "scopeName": "source.kv",
                 "path": "./syntaxes/kv.tmLanguage.json"
+            },
+            {
+                "injectTo": [
+                    "source.python"
+                ],
+                "scopeName": "styled",
+                "path": "./syntaxes/kv.json",
+                "embeddedLanguages": {
+                    "source.kv": "kv"
+                }
             }
         ],
         "snippets": [

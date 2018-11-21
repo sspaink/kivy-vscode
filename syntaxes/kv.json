@@ -1,0 +1,18 @@
+{
+	"fileTypes": ["py"],
+	"injectionSelector": "L:source",
+	"patterns": [
+		{
+			"contentName": "source.kv",
+			"begin": "Builder\\.load_string\\(\\w*(\"\"\"|''')",
+			"end": "\\w*(\\1)",
+			"patterns": [
+				{
+					"include": "source.kv"
+				}
+			]
+		}
+	],
+	"scopeName": "styled"
+}
+
