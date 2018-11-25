@@ -5,7 +5,7 @@
         {
             "comment": "Global value: #:set name value is equivalent to name = value",
             "name": "comment.line.number-sign.kv",
-            "match": "#:.*"
+            "match": "#:?.*"
         },
         {
             "comment": "Root rule (There can only be one!): No indention followed by :",
@@ -21,12 +21,12 @@
         {
             "comment": "Children widgets: Indention followed by :",
             "name": "entity.name.function.kv",
-            "match": "^.*:$"
+            "match": "^[^#]*:$"
         },
         {
             "comment": "Keys: Indention followed by : and a value",
             "name": "support.variable.kv",
-            "match": "^(.*?):"
+            "match": "^([^#]*?):"
         },
         {
             "comment": "Double quoted strings",
