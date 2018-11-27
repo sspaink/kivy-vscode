@@ -28,3 +28,15 @@ Current features:
 This project uses [Mocha](http://mochajs.org/) as an testing framework and [Chai](http://chaijs.com/) as an assertion libray.
 
 Run the tests by executing the command `npm test`.
+
+## Testing extension
+
+1. Install all packages by running:
+
+       "npm install"
+
+2. Compile the program by running:
+
+        "npm run compile"
+
+3. Start debugging by hitting F5
