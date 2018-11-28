@@ -4,6 +4,12 @@ All notable changes to the "kivy-language" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.4.0 - 2018-11-27
+
+- Add support for Python blocks (Thank you @tito!)
+- Fix comments with indentions (Thank you @tito!)
+- Advanced vscode dependency to 1.1.22 to resolve vulnerability issue
+
 ## 0.3.0 - 2018-10-11
 
 - Added the setting "kivy.requireKivyHeader" to allow disabling if kivy header is required
