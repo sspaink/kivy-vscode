@@ -15,8 +15,7 @@
         {
             "comment": "Class rule: Declared by the name of a widget class between < > and followed by :",
             "name": "entity.name.type.kv",
-            "begin": "<",
-            "end": ">:"
+            "match": "^<.*>:$"
         },
         {
             "comment": "Children widgets: Indention followed by :",
