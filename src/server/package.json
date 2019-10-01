@@ -14,7 +14,7 @@
 		"url": "https://github.com/BattleBas/kivy-vscode"
 	},
 	"dependencies": {
-		"vscode": "^1.1.22",
+		"vscode": "^1.1.36",
 		"vscode-languageserver": "^5.1.0"
 	},
 	"scripts": {
