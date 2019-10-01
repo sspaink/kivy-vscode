@@ -2,7 +2,7 @@
     "name": "kivy-vscode",
     "displayName": "Kivy",
     "description": "Kivy language support for Visual Studio Code.",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "publisher": "BattleBas",
     "license": "MIT",
     "icon": "icon.png",
@@ -96,8 +96,5 @@
         "@types/mocha": "^5.2.5",
         "@types/node": "^10.11.4",
         "typescript": "^3.1.1"
-    },
-    "dependencies": {
-        "vscode": "^1.1.22"
     }
 }
