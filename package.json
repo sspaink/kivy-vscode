@@ -2,7 +2,7 @@
     "name": "kivy-vscode",
     "displayName": "Kivy",
     "description": "Kivy language support for Visual Studio Code.",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "publisher": "BattleBas",
     "license": "MIT",
     "icon": "icon.png",
