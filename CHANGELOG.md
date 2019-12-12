@@ -4,6 +4,10 @@ All notable changes to the "kivy-language" extension will be documented in this 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.5.3 - 2019-12-11
+
+- Updated dependency diff from 3.1 to 3.5
+
 ## 0.4.0 - 2018-11-27
 
 - Add support for Python blocks (Thank you @tito!)
