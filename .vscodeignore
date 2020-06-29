@@ -1,8 +1,6 @@
 **/*.ts
 **/tsconfig.json
 
-**/node_modules/
-
 .gitignore
 .travis.yml
 examples/
