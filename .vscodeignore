@@ -1,6 +1,12 @@
-*.log
 **/*.ts
 **/tsconfig.json
-.vscode/**
+
+**/node_modules/
+
 .gitignore
 .travis.yml
+examples/
+.vscode/
+screenshots/
+.git/
+*.md

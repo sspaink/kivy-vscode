@@ -4,3 +4,4 @@ src/client/server/
 *.log
 coverage/
 .nyc_output/
+*.vsix
