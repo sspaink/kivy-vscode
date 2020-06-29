@@ -82,7 +82,7 @@
         ]
     },
     "scripts": {
-        "postinstall": "cd src/server && npm install && cd ../client && npm install && node ./node_modules/vscode/bin/install && cd ../..",
+        "postinstall": "cd src/server && npm install && cd ../client && npm install",
         "compile": "tsc -p src/client/tsconfig.json && cd src/server && npm run installServer && cd ../.. && tsc -p src/server/tsconfig.json",
         "vscode:prepublish": "tsc -p src/client/tsconfig.json && cd src/server && npm run installServer && cd ../.. && tsc -p src/server/tsconfig.json",
         "compile:client": "tsc -p src/client/tsconfig.json",
@@ -92,9 +92,9 @@
         "test": "cd src/client && npm test"
     },
     "devDependencies": {
-        "@types/chai": "^4.1.6",
-        "@types/mocha": "^5.2.5",
-        "@types/node": "^10.11.4",
-        "typescript": "^3.1.1"
+        "@types/chai": "^4.2.11",
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^10.17.26",
+        "typescript": "^3.9.5"
     }
 }

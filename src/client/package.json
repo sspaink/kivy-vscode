@@ -43,14 +43,14 @@
 		"vscode:prepublish": "tsc -p ./",
 		"compile": "tsc -p ./",
 		"watch": "tsc -w -p ./",
-		"update-vscode": "node ./node_modules/vscode/bin/install",
-		"postinstall": "node ./node_modules/vscode/bin/install",
 		"test": "mocha -r ts-node/register test/**/*.test.ts"
 	},
 	"dependencies": {
+		"@types/vscode": "^1.46.0",
 		"chai": "^4.2.0",
+		"mocha": "^8.0.1",
 		"ts-node": "^7.0.1",
-		"vscode": "^1.1.36",
-		"vscode-languageclient": "^5.1.0"
+		"vscode-languageclient": "^5.2.1",
+		"vscode-test": "^1.4.0"
 	}
 }
