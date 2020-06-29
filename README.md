@@ -1,5 +1,7 @@
 # kivy Language in VS Code
 
+  ![alt text](icon.png "icon")
+
 [![Travis Build Status](https://travis-ci.org/BattleBas/kivy-vscode.svg?branch=master)](https://travis-ci.org/BattleBas/kivy-vscode)
 
 This project introduces Kivy (KV) language support to VS Code.
