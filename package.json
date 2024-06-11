@@ -94,7 +94,7 @@
     "devDependencies": {
         "@types/chai": "^4.2.11",
         "@types/mocha": "^7.0.2",
-        "@types/node": "^10.17.26",
+        "@types/node": "^20.14.2",
         "typescript": "^3.9.5"
     }
 }
